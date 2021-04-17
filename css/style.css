@@ -1,0 +1,60 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+* ul {
+	margin-left: 20px;
+}
+body {
+	background: #ddd;
+}
+
+.hello ul li a {
+	color: #000;
+}
+
+* h4,
+* h1 {
+	padding: 10px;
+}
+.panel-title > a span {
+	color: #ccc;
+	z-index: 0;
+	cursor: default;
+}
+
+.panel-heading {
+	padding: 0;
+}
+img {
+	box-shadow: 2px 0px 2px 0px #777;
+}
+
+img:hover {
+	transform: rotateY(15deg);
+	box-shadow: 3px 5px 2px 4px #ccc;
+}
+.container {
+	margin-top: 70px;
+}
+
+@media (max-width: 500px) {
+	.container,
+	.row,
+	.col-xs-12 {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		height: 50vh;
+		font-size: 1.2rem;
+	}
+	img {
+		margin: auto;
+	}
+	body {
+		background: rgb(49, 49, 58);
+	}
+}
